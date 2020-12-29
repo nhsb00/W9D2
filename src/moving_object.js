@@ -18,6 +18,7 @@ MovingObject.prototype.draw = function (ctx) {
     ctx.lineWidth = 20;
     ctx.fill();
 }
+
 const maxX = 100;
 const maxY = 100; 
 MovingObject.prototype.move = function(maxX, maxY) {
