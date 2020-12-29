@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("document.addEventListener('DOMContentLoaded', function () {\n    const canvasEl = document.getElementById('canvas');\n    canvasEl.width = 500;\n    canvasEl.height = 500;\n\n    const ctx = canvasEl.getContext('2d');\n    ctx.fillStyle = 'green';\n    ctx.fillRect(0, 0, 500, 500);\n\n    ctx.beginPath();\n    ctx.arc(250, 250, 80, 0, 2 * Math.PI);\n    ctx.strokeStyle = 'purple';\n    ctx.lineWidth = 20;\n    ctx.stroke();\n    ctx.fillStyle = 'yellow';\n    ctx.fill();\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("document.addEventListener('DOMContentLoaded', function () {\n    const canvasEl = document.getElementById('game-canvas');\n    canvasEl.width = 500;\n    canvasEl.height = 500;\n\n    const ctx = canvasEl.getContext('2d');\n    ctx.fillStyle = 'green';\n    ctx.fillRect(0, 0, 500, 500);\n\n    ctx.beginPath();\n    ctx.arc(250, 250, 80, 0, 2 * Math.PI);\n    ctx.strokeStyle = 'purple';\n    ctx.lineWidth = 20;\n    ctx.stroke();\n    ctx.fillStyle = 'yellow';\n    ctx.fill();\n});\nconsole.log(\"Webpack is working!\")\n\n//# sourceURL=webpack:///./src/index.js?");
 /******/ })()
 ;
